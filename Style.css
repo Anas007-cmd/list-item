@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff3e6;
+    border-bottom: 2px solid #d0a98a;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    color: #5d4037;
+    margin: 0;
+}
+
+header img {
+    width: 300px;
+    height: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-details {
+    padding: 20px;
+    margin: 0 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Ingrediants .unordered-list {
+    list-style-type: circle;
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.5;
+    padding-left: 30px;
+}
+
+.Ingrediants .unordered-list li:nth-child(odd) {
+    background-color: #e8f5e9;
+    padding: 5px;
+}
+
+
+.ordered-list {
+    list-style-type: none;
+    padding-left: 30px;
+    text-align: right;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.ordered-list li {
+    background: url('path/to/your-custom-marker.png') no-repeat left center;
+    background-size: 20px 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.ordered-list li:nth-child(odd) {
+    background-color: #f3e5f5;
+}
